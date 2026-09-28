@@ -49,8 +49,6 @@ nasm --version
 - `charly.yml` — the candy manifest: the package list with per-distro sections,
   the `CCACHE_DISABLE` environment, an ordered `plan:` of build-time `check:`
   steps, and the embedded `skill:` entity.
-- `.github/workflows/deploy.yml` — builds the pinned charly and runs
-  `charly box validate` on the manifest (the merge gate).
 - `.github/workflows/tag-on-merge.yml` — CalVer tag + `CHANGELOG/` on merge.
 - `README.md` — this user overview.
 
